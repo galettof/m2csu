@@ -138,14 +138,39 @@ title: M2 @ CSU 2022 Conference
 		<h5 class="mb-0" style="display:inline">Speakers</h5>
 		<span class="text-muted">(click name to expand)</span>
 	      </div>
-	      <div class="card-header border-top" id="headingOne">
+	      {% assign talklist = site.data.talks.talks | sort: 'last' %}
+	      {% for item in talklist %}
+	      <div class="card-header border-top" id="heading{{ forloop.index }}">
 		<h6 class="mb-0">
-		  <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+		  <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
+		    &nbsp;{{ item.first}} {{item.last}} - {{ item.title }}
+		  </a>
+		</h6>
+	      </div>
+	      <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#accordionExample">
+		<div class="card-body">
+		  {{ item.abstract }}
+		</div>
+	      </div>
+	      {% endfor %}
+	    </div>
+	  </section>
+
+	  <!--
+	  <section>
+	    <div class="card accordion" id="accordionExample">
+	      <div class="card-header">
+		<h5 class="mb-0" style="display:inline">Speakers</h5>
+		<span class="text-muted">(click name to expand)</span>
+	      </div>
+	      <div class="card-header border-top" id="heading1">
+		<h6 class="mb-0">
+		  <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
 		    &nbsp;David Eisenbud - Free Resolutions, Finite and Infinite
 		  </a>
 		</h6>
 	      </div>
-	      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+	      <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
 		<div class="card-body">
 		  <p>
 		    Abelian groups -- modules over the integers
@@ -171,14 +196,14 @@ title: M2 @ CSU 2022 Conference
 		</div>
 	      </div>
 
-	      <div class="card-header border-top" id="headingTwo">
+	      <div class="card-header border-top" id="heading2">
 		<h6 class="mb-0">
-		  <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		  <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
 		    &nbsp;Jose Israel Rodriguez
 		  </a>
 		</h6>
 	      </div>
-	      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+	      <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
 		<div class="card-body">
 		</div>
 	      </div>
@@ -233,18 +258,7 @@ title: M2 @ CSU 2022 Conference
 	      
 	    </div>
 	  </section>
-	  <section id="overview">
-	    <div class="card">
-	      <div class="card-header">
-		<h5 class="mb-0">Overview</h5>
-	      </div>
-	      <div class="card-body">
-		<p><a href="http://www.macaulay2.com" target="_blank">Macaulay2</a> is a free open-source software for reserach in algebraic geometry and commutative algebra. Users can contribute to Macaulay2 by writing <a href="https://faculty.math.illinois.edu/Macaulay2/Packages/" target="_blank">packages</a> that extend the core functionalities.</p>
-		<p>We are organizing a virtual Macaulay2 workshop from Monday, May 11 to Friday, May 15, 2020. The goal of this workshop is to bring together researchers of different backgrounds and expertise levels to collaborate on developing packages for Macaulay2. The workshop will be conducted using a combination of <a href="https://zoom.us/" target="_blank">Zoom</a> and <a href="https://slack.com/" target="_blank">Slack</a>.</p>
-		This event is organized by <a href="https://math.galetto.org" target="_blank">Federico Galetto</a>, <a href="https://people.hamilton.edu/cgibbons" target="_blank">Courtney Gibbons</a>, <a href="https://academic.csuohio.edu/h_lopez/" target="_blank">Hiram L&oacute;pez</a>, and <a href="https://people.hamilton.edu/bstone" target="_blank">Branden Stone</a>.
-	      </div>
-	    </div>
-	  </section>
+	  -->
 	  
     </div>
   </div>
