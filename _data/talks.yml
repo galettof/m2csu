@@ -53,3 +53,34 @@ package for coding theory research. I will also give an overview of the
 state of our minimum weight algorithm implementation in the package
 CodingTheory, including how it compares with other available
 implementations as well as possibilities for improvement."
+
+- first: Gregory G.
+  last: Smith
+  title: Experiments with toric vector bundles
+  abstract: "We will examine a few open problems and speculate about why this might be a fruitful area for computational experimentation.  We will also showcase some new calculations in the developing ToricReflexiveSheaves package."
+
+- first: Anton
+  last: Leykin
+  title: Solving polynomial systems equation-by-equation
+  abstract: "The task of describing the complex variety cut out by a sequence of polynomial equations is one of the central tasks of numerical algebraic geometry.
+We develop a new geometric construction that addresses this &quot;equation by equation&quot;. The resulting algorithm called &quot;u-generation&quot; uses a smaller number of continuation paths in comparison to the state-of-the-art analogs. Apart from theoretical advances, I will demonstrate Macaulay2 tools necessary for an implementation of u-generation. (This is joint work with Tim Duff and Jose Rodriguez.)"
+
+- first: Mahrud
+  last: Sayrafi
+  title: TBA
+  abstract: "TBA"
+
+- first: Francesca
+  last: Gandini
+  title: TBA
+  abstract: "TBA"
+
+- first: Jose Israel
+  last: Rodriguez
+  title: TBA
+  abstract: "TBA"
+
+- first: Henry
+  last: Chimal Dzul
+  title: TBA
+  abstract: "TBA"
