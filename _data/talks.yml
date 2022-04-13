@@ -67,8 +67,8 @@ We develop a new geometric construction that addresses this &quot;equation by eq
 
 - first: Mahrud
   last: Sayrafi
-  title: TBA
-  abstract: "TBA"
+  title: Normal Toric Varieties in Macaulay2
+  abstract: 'I will talk about how to use the <a href="http://www2.macaulay2.com/Macaulay2/doc/Macaulay2/share/doc/Macaulay2/NormalToricVarieties/html/index.html" target="_blank">NormalToricVarieties</a> package, focusing first on defining toric varieties from combinatorial data, the Cox ring, and working with divisors and sheaves, and second on features such as toric maps and Chern classes.'
 
 - first: Francesca
   last: Gandini
