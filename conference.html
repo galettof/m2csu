@@ -76,6 +76,7 @@ title: M2 @ CSU 2022 Conference
 	    </div>
 	  </section>
 
+
 	  <section id="accommodations">
 	    <div class="card">
 	      <div class="card-header">
@@ -131,6 +132,134 @@ title: M2 @ CSU 2022 Conference
 	  </section>
 	  -->
 
+	  <section id="speakers">
+	    <div class="card accordion" id="accordionExample">
+	      <div class="card-header">
+		<h5 class="mb-0" style="display:inline">Speakers</h5>
+		<span class="text-muted">(click name to expand)</span>
+	      </div>
+	      {% assign talklist = site.data.talks.talks | sort: 'last' %}
+	      {% for item in talklist %}
+	      <div class="card-header border-top" id="heading{{ forloop.index }}">
+		<h6 class="mb-0">
+		  <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="false" aria-controls="collapse{{ forloop.index }}">
+		    &nbsp;{{ item.first}} {{item.last}} - {{ item.title }}
+		  </a>
+		</h6>
+	      </div>
+	      <div id="collapse{{ forloop.index }}" class="collapse" aria-labelledby="heading{{ forloop.index }}" data-parent="#accordionExample">
+		<div class="card-body">
+		  {{ item.abstract }}
+		</div>
+	      </div>
+	      {% endfor %}
+	    </div>
+	  </section>
+
+	  <!--
+	  <section>
+	    <div class="card accordion" id="accordionExample">
+	      <div class="card-header">
+		<h5 class="mb-0" style="display:inline">Speakers</h5>
+		<span class="text-muted">(click name to expand)</span>
+	      </div>
+	      <div class="card-header border-top" id="heading1">
+		<h6 class="mb-0">
+		  <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+		    &nbsp;David Eisenbud - Free Resolutions, Finite and Infinite
+		  </a>
+		</h6>
+	      </div>
+	      <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionExample">
+		<div class="card-body">
+		  <p>
+		    Abelian groups -- modules over the integers
+		    -- are well-described by giving generators and
+		    relations, conveniently described by one matrix
+		    of integers. For modules over a polynomial ring
+		    in n variables David Hilbert improved the
+		    description to one requiring n matrices, the
+		    ``free resolution''. But for most commutative
+		    rings, the corresponding description requires
+		    infinitely many matrices.
+		  </p>
+
+		  In the finite case, we know a lot, and in the
+		  first half of this talk I will survey some of
+		  what we've learned in the 130 years since
+		  Hilbert's work. But except for very special
+		  cases, we know almost nothing in the infinite
+		  case. In the second half of the talk I will
+		  introduce some new problems and conjectures
+		  that Hai Long Dao and I have been working on,
+		  with the help of the program Macaulay2.
+		</div>
+	      </div>
+
+	      <div class="card-header border-top" id="heading2">
+		<h6 class="mb-0">
+		  <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+		    &nbsp;Jose Israel Rodriguez
+		  </a>
+		</h6>
+	      </div>
+	      <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionExample">
+		<div class="card-body">
+		</div>
+	      </div>
+
+	      <div class="card-header border-top" id="headingThree">
+		<h6 class="mb-0">
+		  <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		    &nbsp;Mahrud Sayrafi
+		  </a>
+		</h6>
+	      </div>
+	      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+		<div class="card-body">
+		</div>
+	      </div>
+	      
+	      <div class="card-header border-top" id="headingFour">
+		<h6 class="mb-0">
+		  <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+		    &nbsp;Francesca Gandini
+		  </a>
+		</h6>
+	      </div>
+	      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+		<div class="card-body">
+		</div>
+	      </div>
+	      
+	      <div class="card-header border-top" id="headingFive">
+		<h6 class="mb-0">
+		  <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+		    &nbsp;Kisun Lee
+		  </a>
+		</h6>
+	      </div>
+	      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+		<div class="card-body">
+		</div>
+	      </div>
+
+	      <div class="card-header border-top" id="headingSix">
+		<h6 class="mb-0">
+		  <a role="button" class="collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+		    &nbsp;Anton Leykin
+		  </a>
+		</h6>
+	      </div>
+	      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+		<div class="card-body">
+		</div>
+	      </div>
+	      
+	    </div>
+	  </section>
+	  -->
+	  
     </div>
   </div>
 </div>

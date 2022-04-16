@@ -1,0 +1,95 @@
+# enclose values in '' when ending in 0 or containing :
+talks:
+
+- first: David
+  last: Eisenbud
+  title: Free Resolutions, Finite and Infinite
+  abstract: "<p> Abelian groups -- modules
+  over the integers -- are well-described by giving generators and
+  relations, conveniently described by one matrix of integers. For
+  modules over a polynomial ring in n variables David Hilbert improved
+  the description to one requiring n matrices, the &quot;free
+  resolution&quot;. But for most commutative rings, the corresponding
+  description requires infinitely many matrices.  </p> In the finite
+  case, we know a lot, and in the first half of this talk I will
+  survey some of what we've learned in the 130 years since Hilbert's
+  work. But except for very special cases, we know almost nothing in
+  the infinite case. In the second half of the talk I will introduce
+  some new problems and conjectures that Hai Long Dao and I have been
+  working on, with the help of the program Macaulay2."
+
+- first: Aleksandra
+  last: Sobieska
+  title: Subcomplexes of Certain Free Resolutions
+  abstract: "What are the subcomplexes of a free
+  resolution? This question is simple to state, but the naive approach
+  leads to a computational quagmire that is infeasible even in small
+  cases. In this talk, I invoke the Bernstein--Gelfand--Gelfand (BGG)
+  correspondence to address this question for free resolutions given
+  by two well-known complexes, the Koszul and the
+  Eagon--Northcott. This novel approach provides a complete
+  characterization of the ranks of free modules in a subcomplex in the
+  Koszul case and imposes numerical restrictions in the
+  Eagon--Northcott case."
+
+- first: Selvi
+  last: Kara
+  title: Algebraic Study of Weighted Oriented Graphs
+  abstract: "In this talk, we will consider the edge ideals of weighted oriented graphs. In the first half of the talk, we will survey some of the results about the algebraic invariants of these monomial ideals. The second half of the talk will focus on Morse resolutions of monomial ideals and we will discuss when these resolutions are minimal. As an application, we will present minimal cellular free resolutions of edge ideals of certain classes of weighted oriented graphs."
+
+- first: Kisun
+  last: Lee
+  title: Certifying roots of polynomial systems on Macaulay2
+  abstract: "We present the Macaulay2 package NumericalCertification for certifying the correctness of approximations for roots of square polynomial systems. It employs the Krawczyk method and α-theory as the main methods for certification. The package works with output data computed in Macaulay2 without using external software. Also, we introduce potential extensions of the package to the multiple roots certification."
+
+- first: Nathan
+  last: Nichols
+  title: Computing the minimum distance of a linear code
+  abstract: "Computing the minimum distance of a linear code is an NP-hard problem
+that is relevant to certain mathematical research and engineering
+applications. In this talk, I will explain reasons why computing the
+minimum weight of a linear code is an important feature in a software
+package for coding theory research. I will also give an overview of the
+state of our minimum weight algorithm implementation in the package
+CodingTheory, including how it compares with other available
+implementations as well as possibilities for improvement."
+
+- first: Gregory G.
+  last: Smith
+  title: Experiments with toric vector bundles
+  abstract: "We will examine a few open problems and speculate about why this might be a fruitful area for computational experimentation.  We will also showcase some new calculations in the developing ToricReflexiveSheaves package."
+
+- first: Anton
+  last: Leykin
+  title: Solving polynomial systems equation-by-equation
+  abstract: "The task of describing the complex variety cut out by a sequence of polynomial equations is one of the central tasks of numerical algebraic geometry.
+We develop a new geometric construction that addresses this &quot;equation by equation&quot;. The resulting algorithm called &quot;u-generation&quot; uses a smaller number of continuation paths in comparison to the state-of-the-art analogs. Apart from theoretical advances, I will demonstrate Macaulay2 tools necessary for an implementation of u-generation. (This is joint work with Tim Duff and Jose Rodriguez.)"
+
+- first: Mahrud
+  last: Sayrafi
+  title: Normal Toric Varieties in Macaulay2
+  abstract: 'I will talk about how to use the <a href="http://www2.macaulay2.com/Macaulay2/doc/Macaulay2/share/doc/Macaulay2/NormalToricVarieties/html/index.html" target="_blank">NormalToricVarieties</a> package, focusing first on defining toric varieties from combinatorial data, the Cox ring, and working with divisors and sheaves, and second on features such as toric maps and Chern classes.'
+
+- first: Francesca
+  last: Gandini
+  title: InvariantRing
+  abstract: "We describe a significant update to the existing
+  <code>InvariantRing</code>
+  package for <em>Macaulay2</em>.  In addition to expanding and
+  improving the methods of the existing package for actions of finite
+  groups, the updated package adds functionality for computing
+  invariants of diagonal actions of tori and finite abelian groups as
+  well as invariants of arbitrary linearly reductive group actions.
+  The implementation of the package has been completely overhauled
+  with the aim of serving as a unified resource for invariant theory
+  computations in <em>Macaulay2</em>."
+
+- first: Jose Israel
+  last: Rodriguez
+  title: TBA
+  abstract: "TBA"
+
+- first: Henry
+  last: Chimal Dzul
+  title: TBA
+  abstract: "TBA"
