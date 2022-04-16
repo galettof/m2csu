@@ -72,8 +72,17 @@ We develop a new geometric construction that addresses this &quot;equation by eq
 
 - first: Francesca
   last: Gandini
-  title: TBA
-  abstract: "TBA"
+  title: InvariantRing
+  abstract: "We describe a significant update to the existing
+  <code>InvariantRing</code>
+  package for <em>Macaulay2</em>.  In addition to expanding and
+  improving the methods of the existing package for actions of finite
+  groups, the updated package adds functionality for computing
+  invariants of diagonal actions of tori and finite abelian groups as
+  well as invariants of arbitrary linearly reductive group actions.
+  The implementation of the package has been completely overhauled
+  with the aim of serving as a unified resource for invariant theory
+  computations in <em>Macaulay2</em>."
 
 - first: Jose Israel
   last: Rodriguez
