@@ -86,8 +86,8 @@ We develop a new geometric construction that addresses this &quot;equation by eq
 
 - first: Jose Israel
   last: Rodriguez
-  title: TBA
-  abstract: "TBA"
+  title: Algebraic Optimization Degree
+  abstract: 'The Macaulay2 package AlgebraicOptimization implements methods for determining the algebraic degree of an optimization problem. In this talk I will describe  the structure of an algebraic optimization problem and explain how the methods in this package may be used to determine the respective degrees. Special features include determining Euclidean distance degrees and maximum likelihood degrees. The package is available at <a href="https://github.com/Macaulay2/Workshop-2020-Cleveland/tree/ISSAC-AlgOpt/alg-stat/AlgebraicOptimization" target="_blank">https://github.com/Macaulay2/Workshop-2020-Cleveland/tree/ISSAC-AlgOpt/alg-stat/AlgebraicOptimization</a>. Time permitting, I will also how this is related to other M2 packages.'
 
 - first: Henry
   last: Chimal Dzul
