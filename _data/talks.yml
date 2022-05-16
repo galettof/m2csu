@@ -93,3 +93,8 @@ We develop a new geometric construction that addresses this &quot;equation by eq
   last: Chimal Dzul
   title: Topics in Coding Theory for implementation in Macaulay2
   abstract: "Error correction in digital information is crucial in modern communication devices. Recently, a Coding Theory package has been developed for Macaulay2. Although many functions and constructions of families of error correcting codes are included there, many others are missing. Instead of presenting work that has been done in Coding theory with the Help of Macaulay2, In this talk we will propose the implementation of more functions to complement the Coding Theory package of Macaulay2. First, we will propose to implement functions to describe the algebraic structure of Quasi-Cyclic codes. Quasi-cyclic codes are among the most important families of codes because they attain the highest minimum Hamming distance possible for a given length and dimension. On the other hand, we will propose to implement functions to study codes over finite rings. These are of interest to the research community in Coding theory as they close relation to other areas in Discrete Mathematics and DNA coding."
+
+- first: Nicholas
+  last: Iammarino
+  title: Calculating the Jets of an Ideal in Macaulay2
+  abstract: "We give a definition of the s-order jets of an ideal of a polynomial ring and show how the Jets package of Macaulay2 can be used to calculate the jets of an ideal.  We then show how we can use the jets of an ideal to calculate the jets of some other algebraic objects, including edge ideals of graphs.  Finally, we define the s-order principal component of the edge ideal of a graph and present an application to the cochordal family of graphs."
