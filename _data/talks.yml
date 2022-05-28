@@ -106,10 +106,10 @@ We develop a new geometric construction that addresses this &quot;equation by eq
 
 - first: Kriti
   last: Goel
-  title: 
-  abstract: ""
+  title: Computing multi-Rees ideals and mixed multiplicities in Macaulay2
+  abstract: "We present the package MixedMultiplicity for computing mixed multiplicities of ideals in a Noetherian ring. This enables us to find mixed volumes of convex lattice polytopes and sectional Milnor numbers of hypersurfaces with an isolated singularity. The algorithms require the computation of the defining equations of the multi-Rees algebra of ideals, a task we accomplish using a generalization of a result of David A. Cox, Kuei-Nuan Lin, and Gabriel Sosa."
 
 - first: Justin
   last: Chen
-  title: 
-  abstract: ""
+  title: Representing matroids in Macaulay2
+  abstract: "Matroids are combinatorial structures that arise naturally in diverse areas of mathematics. The simplest and most ubiquitous class of matroids are representable matroids (over a field), which are fully captured by a finite set of vectors. However, finding a representation for a given matroid is a difficult problem. I will discuss how recent work by Baker-Lorscheid enables efficient computation of representations of matroids over finite fields, using algebraic structures called pastures (which generalize fields). This is joint work with Tianyi Zhang."
