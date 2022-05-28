@@ -98,3 +98,18 @@ We develop a new geometric construction that addresses this &quot;equation by eq
   last: Iammarino
   title: Calculating the Jets of an Ideal in Macaulay2
   abstract: "We give a definition of the s-order jets of an ideal of a polynomial ring and show how the Jets package of Macaulay2 can be used to calculate the jets of an ideal.  We then show how we can use the jets of an ideal to calculate the jets of some other algebraic objects, including edge ideals of graphs.  Finally, we define the s-order principal component of the edge ideal of a graph and present an application to the cochordal family of graphs."
+
+- first: Michael
+  last: Burr
+  title: The SubalgebraBases Package
+  abstract: "Subalgebra bases are an analogue of Groebner bases for polynomial algebras.  In this talk, I will introduce the newly revised SubalgebraBases package.  This package contains routines for computing subalgebra bases as well as tools for applying these bases."
+
+- first: Kriti
+  last: Goel
+  title: Computing multi-Rees ideals and mixed multiplicities in Macaulay2
+  abstract: "We present the package MixedMultiplicity for computing mixed multiplicities of ideals in a Noetherian ring. This enables us to find mixed volumes of convex lattice polytopes and sectional Milnor numbers of hypersurfaces with an isolated singularity. The algorithms require the computation of the defining equations of the multi-Rees algebra of ideals, a task we accomplish using a generalization of a result of David A. Cox, Kuei-Nuan Lin, and Gabriel Sosa."
+
+- first: Justin
+  last: Chen
+  title: Representing matroids in Macaulay2
+  abstract: "Matroids are combinatorial structures that arise naturally in diverse areas of mathematics. The simplest and most ubiquitous class of matroids are representable matroids (over a field), which are fully captured by a finite set of vectors. However, finding a representation for a given matroid is a difficult problem. I will discuss how recent work by Baker-Lorscheid enables efficient computation of representations of matroids over finite fields, using algebraic structures called pastures (which generalize fields). This is joint work with Tianyi Zhang."
