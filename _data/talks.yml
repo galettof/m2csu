@@ -98,3 +98,18 @@ We develop a new geometric construction that addresses this &quot;equation by eq
   last: Iammarino
   title: Calculating the Jets of an Ideal in Macaulay2
   abstract: "We give a definition of the s-order jets of an ideal of a polynomial ring and show how the Jets package of Macaulay2 can be used to calculate the jets of an ideal.  We then show how we can use the jets of an ideal to calculate the jets of some other algebraic objects, including edge ideals of graphs.  Finally, we define the s-order principal component of the edge ideal of a graph and present an application to the cochordal family of graphs."
+
+- first: Michael
+  last: Burr
+  title: The SubalgebraBases Package
+  abstract: "Subalgebra bases are an analogue of Groebner bases for polynomial algebras.  In this talk, I will introduce the newly revised SubalgebraBases package.  This package contains routines for computing subalgebra bases as well as tools for applying these bases."
+
+- first: Kriti
+  last: Goel
+  title: 
+  abstract: ""
+
+- first: Justin
+  last: Chen
+  title: 
+  abstract: ""
